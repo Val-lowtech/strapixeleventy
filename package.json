@@ -1,0 +1,25 @@
+{
+  "name": "eleventy-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "axios": "^1.6.1",
+    "dotenv": "^16.3.1",
+    "eleventy-plugin-error-overlay": "^1.0.0",
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "common-tags": "^1.8.2"
+  }
+}

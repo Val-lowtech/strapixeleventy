@@ -1,0 +1,18 @@
+---
+layout: layouts/home.html
+title: "Strapi test"
+pagination:
+  data: restaurants.data
+  size: 1
+  alias: restaurant
+---
+
+<h1>{{title}}</h1>
+
+{{ restaurant.attributes.Aaa }}
+
+<ul>
+    {% for strapi in restaurants.data %}
+        <li>{{ strapi.attributes.Aaa }}</li>
+    {% endfor %}
+</ul> 
